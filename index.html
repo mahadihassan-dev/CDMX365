@@ -1,0 +1,1767 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <title>CDMX365 - Directory & Listing HTML Template</title>
+    <link href="assets/plugins/aos/aos.min.css" rel="stylesheet">
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/plugins/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="assets/plugins/OwlCarousel2/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/plugins/OwlCarousel2/css/owl.theme.default.min.css" rel="stylesheet">
+    <link href="assets/plugins/jquery-fancyfileuploader/fancy-file-uploader/fancy_fileupload.css" rel="stylesheet">
+    <link href="assets/plugins/ion.rangeSlider/ion.rangeSlider.min.css" rel="stylesheet">
+    <link href="assets/plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="assets/plugins/select2/select2.min.css" rel="stylesheet">
+    <link href="assets/plugins/select2-bootstrap-5/select2-bootstrap-5-theme.min.css" rel="stylesheet">
+    <!-- Custom style for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top primary-nav">
+        <div class="container">
+            <a class="navbar-brand m-0" href="index.html">
+                <img class="logo-dark" src="assets/images/cdmx-logo.png" alt="">
+            </a>
+            <div class="d-flex order-lg-2">
+                <!-- start button -->
+                <!-- <a href="signin.html" class="d-flex align-items-center justify-content-center p-0 btn-user position-relative" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Favourite">
+                    <i class="fa-solid fa-heart"></i>
+                    <span class="align-items-center bg-primary d-flex end-0 fs-11 justify-content-center nav-count position-absolute rounded-circle text-white">0</span>
+                </a> -->
+                <!-- end /. button -->
+                <!-- start button -->
+                <a href="sign-in.html" class="d-flex align-items-center justify-content-center p-0 btn-user"
+                    data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip"
+                    data-bs-title="Sign In">
+                    <i class="fa-solid fa-user-plus"></i>
+                </a>
+                <!-- end /. button -->
+
+                <!-- start button -->
+                <a href="add-listing.html" class="btn btn-primary d-none d-sm-flex fw-medium gap-2 hstack rounded-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-plus-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path
+                            d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                    </svg>
+                    <div class="vr d-none d-sm-inline-block"></div>
+                    <span class="d-none d-sm-inline-block">Add Listing</span>
+                </a>
+                <!-- end /. button -->
+                <!-- start navbar toggle button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span id="nav-icon" class="">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </button>
+                <!-- end /. navbar toggle button -->
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item"> <a class="nav-link active" href="#" > Home </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="events.html" > What's On </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="nightlife.html" > Night Life </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="dining.html" > Dining </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="deals.html" > Deals </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="articles.html" > News </a> </li>
+                </ul>
+                <div class="d-sm-none">
+                    <!-- start button -->
+                    <a href="signin.html" class="btn btn-primary d-flex gap-2 hstack justify-content-center rounded-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-plus-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                        </svg>
+                        <div class="vr d-none d-sm-inline-block"></div>
+                        <span>Add Listing</span>
+                    </a>
+                    <!-- end /. button -->
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end /. navbar -->
+
+    <main class="site-content-wrapper">
+
+        <!-- start hero header (rounded) -->
+        <div class="align-items-center d-flex hero-header-rounded dark-overlay overflow-hidden position-relative ">
+            <!-- start background image -->
+            <img class="bg-image" src="assets/images/header/lg-03.jpg" alt="Image">
+            <!-- end /. background image -->
+            <div class="container overlay-content">
+                <!-- <h1 class="display-2 fw-bold hero-header_title mb-2 text-capitalize text-white text-center">Co-living <span class="font-caveat">place that</span> you will be <br>excited to call home</h1> -->
+                <h1 class="display-2 fw-bold hero-header_title mb-2 text-capitalize text-white text-center">Search &
+                    <span class="font-caveat text-span">Discover</span> Nearby <br class="d-none d-lg-block"> Landmarks
+                    in
+                    Places Around You</h1>
+                <div class="lead mb-5 text-center text-white">Browse our detailed listings to explore everything in your
+                    area.</div>
+            </div>
+        </div>
+        <!-- end /. hero header (rounded) -->
+
+        <!-- start categories -->
+        <div class="position-relative z-1 header-categories">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 justify-content-center">
+                        <div class="row g-2 g-sm-4 align-items-center justify-content-center">
+                            <div class="col-6 col-sm-4 col-xl-2">
+                                <a href="#"
+                                    class="border-0 card card-hover d-block header-cat-box px-3 py-4 rounded-4 shadow text-center">
+                                    <img src="assets/images/listing-category-icon/event.png" alt="" height="40">
+                                    <p class="fw-semibold mt-4">What's On</p>
+                                </a>
+                            </div>
+                            <div class="col-6 col-sm-4 col-xl-2">
+                                <a href="#"
+                                    class="border-0 card card-hover d-block header-cat-box px-3 py-4 rounded-4 shadow text-center">
+                                    <img src="assets/images/listing-category-icon/night-life.png" alt="" height="40">
+                                    <p class="fw-semibold mt-4">Night Life</p>
+                                </a>
+                            </div>
+                            <div class="col-6 col-sm-4 col-xl-2">
+                                <a href="#"
+                                    class="border-0 card card-hover d-block header-cat-box px-3 py-4 rounded-4 shadow text-center">
+                                    <img src="assets/images/listing-category-icon/deal.png" alt="" height="40">
+                                    <p class="fw-semibold mt-4">Deals</p>
+                                </a>
+                            </div>
+                            <div class="col-6 col-sm-4 col-xl-2">
+                                <a href="#"
+                                    class="border-0 card card-hover d-block header-cat-box px-3 py-4 rounded-4 shadow text-center">
+                                    <img src="assets/images/listing-category-icon/dining.png" alt="" height="40">
+                                    <p class="fw-semibold mt-4">Dining</p>
+                                </a>
+                            </div>
+                            <div class="col-6 col-sm-4 col-xl-2 d-none d-sm-block">
+                                <a href="#"
+                                    class="border-0 card card-hover d-block header-cat-box px-3 py-4 rounded-4 shadow text-center">
+                                    <img src="assets/images/listing-category-icon/news.png" alt="" height="40">
+                                    <p class="fw-semibold mt-4">News</p>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end /. categories -->
+
+        <div id="event-section" class="py-5 position-relative">
+            <div class="py-4">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-sm-10 col-md-10 col-lg-8 col-xl-7">
+                            <!-- start section header -->
+                            <div class="section-header mb-5">
+                                <!-- start subtitle -->
+                                <div class="d-inline-block font-caveat fs-1 fw-medium section-header__subtitle text-capitalize text-primary"> Global Footprint</div>
+                                <!-- end /. subtitle -->
+                                <!-- start section header -->
+                                <h2 class="display-5 fw-semibold mb-3 section-header__title text-capitalize">See What's On Mexico</h2>
+                                <!-- /.End Section Header Title -->
+                            </div>
+                            <!-- end /. section header -->
+                        </div>
+                        <div class="col-sm-10 col-md-10 col-lg-8 col-xl-5 text-end">
+                            <a href="#" class="catg-view-more">View More</a>
+                        </div>
+                    </div>
+                    <div class="row g-4 mb-5">
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/01.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-18 fw-semibold mb-0">
+                                        Green Mart Apartment
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-patch-check-fill text-success" viewBox="0 0 16 16">
+                                            <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z" />
+                                        </svg>
+                                    </h4>
+                                    <!-- end /. card title -->
+                                    
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/02.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-18 fw-semibold mb-0">Chuijhal Hotel And Restaurant</h4>
+                                    <!-- end /. card title -->
+                                    
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/03.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-18 fw-semibold mb-1">The Barber's Lounge</h4>
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/04.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-18 fw-semibold mb-1">Gaming Expo Spectacle</h4>
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/05.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-17 fw-semibold mb-0">Green Mart Apartment</h4>
+                                    <!-- end /. card title -->
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/06.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-17 fw-semibold mb-0">Exclusive Education Aid</h4>
+                                    <!-- end /. card title -->
+                                    
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/07.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-17 fw-semibold mb-0">Northridge University</h4>
+                                    <!-- end /. card title -->
+                                    
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/08.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-17 fw-semibold mb-0">Green Mart Apartment</h4>
+                                    <!-- end /. card title -->
+                                    
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="nightlife-section" class="py-5 position-relative">
+            <div class="py-4">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-sm-10 col-md-10 col-lg-8 col-xl-7">
+                            <!-- start section header -->
+                            <div class="section-header mb-5">
+                                <!-- start subtitle -->
+                                <div class="d-inline-block font-caveat fs-1 fw-medium section-header__subtitle text-capitalize text-primary"> Global Footprint</div>
+                                <!-- end /. subtitle -->
+                                <!-- start section header -->
+                                <h2 class="display-5 fw-semibold mb-3 section-header__title text-capitalize">See What's On Mexico</h2>
+                                <!-- /.End Section Header Title -->
+                            </div>
+                            <!-- end /. section header -->
+                        </div>
+                        <div class="col-sm-10 col-md-10 col-lg-8 col-xl-5 text-end">
+                            <a href="#" class="catg-view-more">View More</a>
+                        </div>
+                    </div>
+                    <div class="row g-4 mb-5">
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/01.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-18 fw-semibold mb-0">
+                                        Green Mart Apartment
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-patch-check-fill text-success" viewBox="0 0 16 16">
+                                            <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z" />
+                                        </svg>
+                                    </h4>
+                                    <!-- end /. card title -->
+                                    
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/02.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-18 fw-semibold mb-0">Chuijhal Hotel And Restaurant</h4>
+                                    <!-- end /. card title -->
+                                    
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/03.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-18 fw-semibold mb-1">The Barber's Lounge</h4>
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/04.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-18 fw-semibold mb-1">Gaming Expo Spectacle</h4>
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/05.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-17 fw-semibold mb-0">Green Mart Apartment</h4>
+                                    <!-- end /. card title -->
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/06.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-17 fw-semibold mb-0">Exclusive Education Aid</h4>
+                                    <!-- end /. card title -->
+                                    
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/07.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-17 fw-semibold mb-0">Northridge University</h4>
+                                    <!-- end /. card title -->
+                                    
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/08.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-17 fw-semibold mb-0">Green Mart Apartment</h4>
+                                    <!-- end /. card title -->
+                                    
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="deals-section" class="py-5 position-relative">
+            <div class="py-4">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-sm-10 col-md-10 col-lg-8 col-xl-7">
+                            <!-- start section header -->
+                            <div class="section-header mb-5">
+                                <!-- start subtitle -->
+                                <div class="d-inline-block font-caveat fs-1 fw-medium section-header__subtitle text-capitalize text-primary"> Global Footprint</div>
+                                <!-- end /. subtitle -->
+                                <!-- start section header -->
+                                <h2 class="display-5 fw-semibold mb-3 section-header__title text-capitalize">See What's On Mexico</h2>
+                                <!-- /.End Section Header Title -->
+                            </div>
+                            <!-- end /. section header -->
+                        </div>
+                        <div class="col-sm-10 col-md-10 col-lg-8 col-xl-5 text-end">
+                            <a href="#" class="catg-view-more">View More</a>
+                        </div>
+                    </div>
+                    <div class="row g-4 mb-5">
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/01.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-18 fw-semibold mb-0">
+                                        Green Mart Apartment
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-patch-check-fill text-success" viewBox="0 0 16 16">
+                                            <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z" />
+                                        </svg>
+                                    </h4>
+                                    <!-- end /. card title -->
+                                    
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/02.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-18 fw-semibold mb-0">Chuijhal Hotel And Restaurant</h4>
+                                    <!-- end /. card title -->
+                                    
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/03.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-18 fw-semibold mb-1">The Barber's Lounge</h4>
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/04.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-18 fw-semibold mb-1">Gaming Expo Spectacle</h4>
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/05.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-17 fw-semibold mb-0">Green Mart Apartment</h4>
+                                    <!-- end /. card title -->
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/06.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-17 fw-semibold mb-0">Exclusive Education Aid</h4>
+                                    <!-- end /. card title -->
+                                    
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/07.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-17 fw-semibold mb-0">Northridge University</h4>
+                                    <!-- end /. card title -->
+                                    
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/08.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-17 fw-semibold mb-0">Green Mart Apartment</h4>
+                                    <!-- end /. card title -->
+                                    
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="dinning-section" class="py-5 position-relative">
+            <div class="py-4">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-sm-10 col-md-10 col-lg-8 col-xl-7">
+                            <!-- start section header -->
+                            <div class="section-header mb-5">
+                                <!-- start subtitle -->
+                                <div class="d-inline-block font-caveat fs-1 fw-medium section-header__subtitle text-capitalize text-primary"> Global Footprint</div>
+                                <!-- end /. subtitle -->
+                                <!-- start section header -->
+                                <h2 class="display-5 fw-semibold mb-3 section-header__title text-capitalize">See What's On Mexico</h2>
+                                <!-- /.End Section Header Title -->
+                            </div>
+                            <!-- end /. section header -->
+                        </div>
+                        <div class="col-sm-10 col-md-10 col-lg-8 col-xl-5 text-end">
+                            <a href="#" class="catg-view-more">View More</a>
+                        </div>
+                    </div>
+                    <div class="row g-4 mb-5">
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/01.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-18 fw-semibold mb-0">
+                                        Green Mart Apartment
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-patch-check-fill text-success" viewBox="0 0 16 16">
+                                            <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z" />
+                                        </svg>
+                                    </h4>
+                                    <!-- end /. card title -->
+                                    
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/02.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-18 fw-semibold mb-0">Chuijhal Hotel And Restaurant</h4>
+                                    <!-- end /. card title -->
+                                    
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/03.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-18 fw-semibold mb-1">The Barber's Lounge</h4>
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/04.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-18 fw-semibold mb-1">Gaming Expo Spectacle</h4>
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/05.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-17 fw-semibold mb-0">Green Mart Apartment</h4>
+                                    <!-- end /. card title -->
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/06.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-17 fw-semibold mb-0">Exclusive Education Aid</h4>
+                                    <!-- end /. card title -->
+                                    
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/07.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-17 fw-semibold mb-0">Northridge University</h4>
+                                    <!-- end /. card title -->
+                                    
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3 d-flex">
+                            <!-- start listing card -->
+                            <div class="card rounded-3 border-0 shadow-sm w-100 flex-fill overflow-hidden card-hover flex-fill w-100 card-hover-bg">
+                                <!-- start card link -->
+                                <a href="listing-details.html" class="stretched-link"></a>
+                                <!-- end /. card link -->
+                                <!-- start card image wrap -->
+                                <div class="card-img-wrap card-image-hover overflow-hidden dark-overlay">
+                                    <img src="assets/images/place/08.jpg" alt="" class="img-fluid">
+                                    <div class="d-flex end-0 gap-2 me-3 mt-3 position-absolute top-0 z-1">
+                                        <a href="#" class="align-items-center bg-blur btn-icon d-flex justify-content-center rounded-circle shadow-sm text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bookmark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end /. card image wrap -->
+                                <div class="d-flex flex-column h-100 position-relative p-3">
+                                    
+                                    
+                                    <!-- start card title -->
+                                    <h4 class="fs-17 fw-semibold mb-0">Green Mart Apartment</h4>
+                                    <!-- end /. card title -->
+                                    
+                                </div>
+                            </div>
+                            <!-- end /. listing card -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- start explore cities & about -->
+        <div class="py-5 bg-primary position-relative overflow-hidden text-white bg-primary bg-size-contain home-about js-bg-image"
+            data-image-src="assets/images/lines.svg">
+            <div class="container py-4">
+                <div class="row justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-10 col-md-10 col-lg-8 col-xl-7">
+                            <!-- start section header -->
+                            <div class="section-header text-center mb-5">
+                                <!-- start subtitle -->
+                                <div
+                                    class="d-inline-block font-caveat fs-1 fw-medium section-header__subtitle text-capitalize">
+                                    Top Regions</div>
+                                <!-- end /. subtitle -->
+                                <!-- start title -->
+                                <h2 class="display-5 fw-semibold mb-3 section-header__title text-capitalize">Explore
+                                    Cities
+                                </h2>
+                                <!-- end /. title -->
+                                <!-- start description -->
+                                <div class="sub-title fs-16">Discover exciting categories. <span
+                                        class="fw-semibold">Find
+                                        what you’re looking for.</span></div>
+                                <!-- end /. description -->
+                            </div>
+                            <!-- end /. section header -->
+                        </div>
+                    </div>
+                </div>
+                <!-- start place carousel -->
+                <div class="owl-carousel owl-theme place-carousel owl-nav-center" data-aos="fade-left">
+                    <!-- start region card -->
+                    <div class="region-card rounded-4 overflow-hidden position-relative text-white">
+                        <div class="region-card-image">
+                            <img src="assets/images/locations/01.jpg" alt="Image" class="h-100 object-fit-cover w-100">
+                        </div>
+                        <div class="region-card-content d-flex flex-column h-100 position-absolute start-0 top-0 w-100">
+                            <div class="region-card-info">
+                                <h4 class="font-caveat mb-0">Mexico</h4>
+                                <h3 class="h2">Kingston</h3>
+                            </div>
+                            <a href="listings-map-grid-1.html"
+                                class="align-items-center d-flex fw-semibold justify-content-between mt-auto region-card-link">
+                                <div class="fs-12 region-card-link-text text-uppercase text-white">Explore more</div>
+                                <div
+                                    class="align-items-center bg-blur text-white btn-icon-md d-flex end-0 justify-content-center rounded-circle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end /. region card -->
+                    <!-- start region card -->
+                    <div class="region-card rounded-4 overflow-hidden position-relative text-white">
+                        <div class="region-card-image">
+                            <img src="assets/images/locations/02.jpg" alt="Image" class="h-100 object-fit-cover w-100">
+                        </div>
+                        <div class="region-card-content d-flex flex-column h-100 position-absolute start-0 top-0 w-100">
+                            <div class="region-card-info">
+                                <h4 class="font-caveat mb-0">Mexico</h4>
+                                <h3 class="h2">Amman</h3>
+                            </div>
+                            <a href="listings-map-grid-1.html"
+                                class="align-items-center d-flex fw-semibold justify-content-between mt-auto region-card-link">
+                                <div class="fs-12 region-card-link-text text-uppercase text-white">Explore more</div>
+                                <div
+                                    class="align-items-center bg-blur text-white btn-icon-md d-flex end-0 justify-content-center rounded-circle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end /. region card -->
+                    <!-- start region card -->
+                    <div class="region-card rounded-4 overflow-hidden position-relative text-white">
+                        <div class="region-card-image">
+                            <img src="assets/images/locations/03.jpg" alt="Image" class="h-100 object-fit-cover w-100">
+                        </div>
+                        <div class="region-card-content d-flex flex-column h-100 position-absolute start-0 top-0 w-100">
+                            <div class="region-card-info">
+                                <h4 class="font-caveat mb-0">Mexico</h4>
+                                <h3 class="h2">Atlanta</h3>
+                                
+                            </div>
+                            <a href="listings-map-grid-1.html"
+                                class="align-items-center d-flex fw-semibold justify-content-between mt-auto region-card-link">
+                                <div class="fs-12 region-card-link-text text-uppercase text-white">Explore more</div>
+                                <div
+                                    class="align-items-center bg-blur text-white btn-icon-md d-flex end-0 justify-content-center rounded-circle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end /. region card -->
+                    <!-- start region card -->
+                    <div class="region-card rounded-4 overflow-hidden position-relative text-white">
+                        <div class="region-card-image">
+                            <img src="assets/images/locations/04.jpg" alt="Image" class="h-100 object-fit-cover w-100">
+                        </div>
+                        <div class="region-card-content d-flex flex-column h-100 position-absolute start-0 top-0 w-100">
+                            <div class="region-card-info">
+                                <h4 class="font-caveat mb-0">Mexico</h4>
+                                <h3 class="h2">Vanish City</h3>
+                                
+                            </div>
+                            <a href="listings-map-grid-1.html"
+                                class="align-items-center d-flex fw-semibold justify-content-between mt-auto region-card-link">
+                                <div class="fs-12 region-card-link-text text-uppercase text-white">Explore more</div>
+                                <div
+                                    class="align-items-center bg-blur text-white btn-icon-md d-flex end-0 justify-content-center rounded-circle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end /. region card -->
+                    <!-- start region card -->
+                    <div class="region-card rounded-4 overflow-hidden position-relative text-white">
+                        <div class="region-card-image">
+                            <img src="assets/images/locations/05.jpg" alt="Image" class="h-100 object-fit-cover w-100">
+                        </div>
+                        <div class="region-card-content d-flex flex-column h-100 position-absolute start-0 top-0 w-100">
+                            <div class="region-card-info">
+                                <h4 class="font-caveat mb-0">Mexico</h4>
+                                <h3 class="h2">Vanish City</h3>
+                                
+                            </div>
+                            <a href="listings-map-grid-1.html"
+                                class="align-items-center d-flex fw-semibold justify-content-between mt-auto region-card-link">
+                                <div class="fs-12 region-card-link-text text-uppercase text-white">Explore more</div>
+                                <div
+                                    class="align-items-center bg-blur text-white btn-icon-md d-flex end-0 justify-content-center rounded-circle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end /. region card -->
+                    <!-- start region card -->
+                    <div class="region-card rounded-4 overflow-hidden position-relative text-white">
+                        <div class="region-card-image">
+                            <img src="assets/images/locations/06.jpg" alt="Image" class="h-100 object-fit-cover w-100">
+                        </div>
+                        <div class="region-card-content d-flex flex-column h-100 position-absolute start-0 top-0 w-100">
+                            <div class="region-card-info">
+                                <h4 class="font-caveat mb-0">Mexico</h4>
+                                <h3 class="h2">Vanish City</h3>
+                                
+                            </div>
+                            <a href="listings-map-grid-1.html"
+                                class="align-items-center d-flex fw-semibold justify-content-between mt-auto region-card-link">
+                                <div class="fs-12 region-card-link-text text-uppercase text-white">Explore more</div>
+                                <div
+                                    class="align-items-center bg-blur text-white btn-icon-md d-flex end-0 justify-content-center rounded-circle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end /. region card -->
+                </div>
+                <!-- end /. place carousel -->
+                
+            </div>
+        </div>
+        <!-- end /. explore cities & about -->
+
+        <!-- start Articles section -->
+        <div class="py-5 position-relative overflow-hidden">
+            <div class="container py-4">
+                <div class="row justify-content-center">
+                    <div class="col-sm-10 col-md-10 col-lg-8 col-xl-7">
+                        <!-- start section header -->
+                        <div class="section-header text-center mb-5">
+                            <!-- start subtitle -->
+                            <div
+                                class="d-inline-block font-caveat fs-1 fw-medium section-header__subtitle text-capitalize text-primary">
+                                Our Latest Articles</div>
+                            <!-- end /. subtitle -->
+                            <!-- start title -->
+                            <h2 class="display-5 fw-semibold mb-3 section-header__title text-capitalize">Discover Our
+                                Latest
+                                News And Articles</h2>
+                            <!-- end /. title -->
+                        </div>
+                        <!-- end /. section header -->
+                    </div>
+                </div>
+                <div class="blog-carousel owl-carousel owl-theme owl-nav-bottom">
+                    <!-- start article -->
+                    <article class="card h-100 overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <a href="blog-details.html" class="h-100 position-absolute start-0 top-0 w-100 z-1"
+                                aria-label="Read more"></a>
+                            <a href="#"
+                                class="align-items-center bg-white btn-icon d-flex end-0 justify-content-center me-3 mt-3 position-absolute rounded-circle text-primary top-0 z-3"
+                                data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Read later"
+                                data-bs-original-title="Read later">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-bookmark" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z" />
+                                </svg>
+                            </a>
+                            <img src="assets/images/blog/01-lg.jpg" class="card-img-top image-zoom-hover" alt="Image">
+                        </div>
+                        <div class="card-body">
+                            <div class="hstack gap-3 mb-3">
+                                <span class="fs-sm small text-muted">9 hours ago</span>
+                                <span class="opacity-25">|</span>
+                                <a class="badge border fw-semibold text-primary bg-white" href="#">Events</a>
+                            </div>
+                            <h3 class="h5 fw-semibold mb-0 post-title overflow-hidden">
+                                <a href="blog-details.html">Etiam Dapibus Metus Aliquam Orci Venenatis, Suscipit
+                                    Efficitur.</a>
+                            </h3>
+                        </div>
+                        <div class="card-footer py-3">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <img src="assets/images/avatar/01.jpg" class="rounded-circle" width="48" height="48"
+                                        alt="Avatar">
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <a href="#" class="d-block"><span class="fst-italic text-muted">By</span> <span
+                                            class="fw-medium">Ethan Blackwood</span></a>
+                                    <small class="text-muted">Engineer</small>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- end /. article -->
+                    <!-- start article -->
+                    <article class="card h-100 overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <a href="blog-details.html" class="h-100 position-absolute start-0 top-0 w-100 z-1"
+                                aria-label="Read more"></a>
+                            <a href="#"
+                                class="align-items-center bg-white btn-icon d-flex end-0 justify-content-center me-3 mt-3 position-absolute rounded-circle text-primary top-0 z-3"
+                                data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Read later"
+                                data-bs-original-title="Read later">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-bookmark" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z" />
+                                </svg>
+                            </a>
+                            <img src="assets/images/blog/02-lg.jpg" class="image-zoom-hover" alt="Image">
+                        </div>
+                        <div class="card-body">
+                            <div class="hstack gap-3 mb-3">
+                                <span class="fs-sm small text-muted">August 30, 2023</span>
+                                <span class="opacity-25">|</span>
+                                <a class="badge border fw-semibold text-primary bg-white" href="#">Events</a>
+                            </div>
+                            <h3 class="h5 fw-semibold mb-0 post-title overflow-hidden">
+                                <a href="blog-details.html">Praesent sit amet augue tincidunt, venenatis risus ut.</a>
+                            </h3>
+                        </div>
+                        <div class="card-footer py-3">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <img src="assets/images/avatar/02.jpg" class="rounded-circle" width="48" height="48"
+                                        alt="Avatar">
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <a href="#" class="d-block"><span class="fst-italic text-muted">By</span> <span
+                                            class="fw-medium">Alexander Kaminski</span></a>
+                                    <small class="text-muted">Data analysis</small>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- end /. article -->
+                    <!-- start article -->
+                    <article class="card h-100 overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <a href="blog-details.html" class="h-100 position-absolute start-0 top-0 w-100 z-1"
+                                aria-label="Read more"></a>
+                            <a href="#"
+                                class="align-items-center bg-white btn-icon d-flex end-0 justify-content-center me-3 mt-3 position-absolute rounded-circle text-primary top-0 z-3"
+                                data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Read later"
+                                data-bs-original-title="Read later">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-bookmark" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z" />
+                                </svg>
+                            </a>
+                            <img src="assets/images/blog/03-lg.jpg" class="image-zoom-hover" alt="Image">
+                        </div>
+                        <div class="card-body">
+                            <div class="hstack gap-3 mb-3">
+                                <span class="fs-sm small text-muted">Jun 28, 2023</span>
+                                <span class="opacity-25">|</span>
+                                <a class="badge border fw-semibold text-primary bg-white" href="#">Events</a>
+                            </div>
+                            <h3 class="h5 fw-semibold mb-0 post-title overflow-hidden">
+                                <a href="blog-details.html">Duis volutpat ipsum eget pretium posuere.</a>
+                            </h3>
+                        </div>
+                        <div class="card-footer py-3">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <img src="assets/images/avatar/03.jpg" class="rounded-circle" width="48" height="48"
+                                        alt="Avatar">
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <a href="#" class="d-block"><span class="fst-italic text-muted">By</span> <span
+                                            class="fw-medium">Edwin Martins</span></a>
+                                    <small class="text-muted">Security Engineer</small>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- end /. article -->
+                    <!-- start article -->
+                    <article class="card h-100 overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <a href="blog-details.html" class="h-100 position-absolute start-0 top-0 w-100 z-1"
+                                aria-label="Read more"></a>
+                            <a href="#"
+                                class="align-items-center bg-white btn-icon d-flex end-0 justify-content-center me-3 mt-3 position-absolute rounded-circle text-primary top-0 z-3"
+                                data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Read later"
+                                data-bs-original-title="Read later">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-bookmark" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z" />
+                                </svg>
+                            </a>
+                            <img src="assets/images/blog/04-lg.jpg" class="image-zoom-hover" alt="Image">
+                        </div>
+                        <div class="card-body">
+                            <div class="hstack gap-3 mb-3">
+                                <span class="fs-sm small text-muted">Jul 28, 2023</span>
+                                <span class="opacity-25">|</span>
+                                <a class="badge border fw-semibold text-primary bg-white" href="#">Events</a>
+                            </div>
+                            <h3 class="h5 fw-semibold mb-0 post-title overflow-hidden">
+                                <a href="blog-details.html">In ut tellus id nisl convallis bibendum eu nec diam.</a>
+                            </h3>
+                        </div>
+                        <div class="card-footer py-3">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <img src="assets/images/avatar/04.jpg" class="rounded-circle" width="48" height="48"
+                                        alt="Avatar">
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <a href="#" class="d-block"><span class="fst-italic text-muted">By</span> <span
+                                            class="fw-medium">Pranoti Deshpande</span></a>
+                                    <small class="text-muted">Product Manager</small>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- end /. article -->
+                    <!-- start article -->
+                    <article class="card h-100 overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <a href="blog-details.html" class="h-100 position-absolute start-0 top-0 w-100 z-1"
+                                aria-label="Read more"></a>
+                            <a href="#"
+                                class="align-items-center bg-white btn-icon d-flex end-0 justify-content-center me-3 mt-3 position-absolute rounded-circle text-primary top-0 z-3"
+                                data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Read later"
+                                data-bs-original-title="Read later">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-bookmark" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z" />
+                                </svg>
+                            </a>
+                            <img src="assets/images/blog/05-lg.jpg" class="image-zoom-hover" alt="Image">
+                        </div>
+                        <div class="card-body">
+                            <div class="hstack gap-3 mb-3">
+                                <span class="fs-sm small text-muted">Oct 24, 2023</span>
+                                <span class="opacity-25">|</span>
+                                <a class="badge border fw-semibold text-primary bg-white" href="#">Events</a>
+                            </div>
+                            <h3 class="h5 fw-semibold mb-0 post-title overflow-hidden">
+                                <a href="blog-details.html">Vestibulum scelerisque urna ut velit auctor varius.</a>
+                            </h3>
+                        </div>
+                        <div class="card-footer py-3">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <img src="assets/images/avatar/05.jpg" class="rounded-circle" width="48" height="48"
+                                        alt="Avatar">
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <a href="#" class="d-block"><span class="fst-italic text-muted">By</span> <span
+                                            class="fw-medium">Gabriel North</span></a>
+                                    <small class="text-muted">DevOps</small>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- end /. article -->
+                </div>
+            </div>
+        </div>
+        <!-- end /. blog section -->
+
+    </main>
+
+    <!-- start footer -->
+    <footer class="footer-dark main-footer overflow-hidden position-relative pt-5">
+        <div class="container pt-4">
+            <div class="border-top py-5">
+                <div class="footer-row row gy-5 g-sm-5 gx-xxl-6">
+                    <div class="border-end col-lg-4 col-md-7 col-sm-6">
+                        <h5 class="fw-bold mb-4">Get In Touch</h5>
+                        <div class="mb-4">Join our newsletter and receive the best job<br class="d-none d-xxl-block">
+                            openings of the week, right on your inbox.</div>
+                        <div class="border rounded-4 p-4 mb-4">
+                            <h6 class="text-white-50 mb-3">Join our Whatsapp:</h6>
+                            <a class="align-items-center d-block d-flex whatsapp-number" href="#"><i
+                                    class="fa-brands fa-whatsapp fs-2 me-2"></i><span
+                                    class="fs-5 fw-semibold text-decoration-underline">(123) 456-7890</span></a>
+                        </div>
+                        <h5 class="fw-bold mb-4">Want to join ListOn?<br> Write us !</h5>
+                        <span><a href="https://theme.easital.com/cdn-cgi/l/email-protection" class="__cf_email__"
+                                data-cfemail="2754525757485553676b4e545368490944484a">[email&#160;protected]</a></span>
+                    </div>
+                    <div class="border-end col-lg-4 col-md-5 col-sm-6">
+                        <h5 class="fw-bold mb-4">Stay Connect</h5>
+                        <div>1123 Fictional St, San Francisco<br class="d-none d-xxl-block"> , CA 94103</div>
+                        <div class="mt-4">
+                            <a class="d-block fw-medium mb-1" href="#">
+                                <i class="fa-solid fa-phone me-2"></i><span>(123) 456-7890</span>
+                            </a>
+                            <a class="email-link d-block fw-medium" href="#">
+                                <i class="fa-solid fa-envelope me-2"></i>
+                                <span class="__cf_email__"
+                                    data-cfemail="b0c3c5c0c0dfc2c4f0fcd9c3c4ffde9ed3dfdd">[email&#160;protected]</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h5 class="fw-bold mb-4">Get In Touch</h5>
+                        <div class="newsletter position-relative mt-4">
+                            <input type="email" class="form-control" placeholder="name@example.com">
+                            <button type="button"
+                                class="btn btn-primary search-btn position-absolute top-50 rounded-circle"><i
+                                    class="fa-solid fa-angle-right"></i></button>
+                        </div>
+                        <div class="border-top my-4"></div>
+                        <h5 class="fw-bold mb-4">Follow the location</h5>
+                        <!-- start social icon -->
+                        <ul class="d-flex flex-wrap gap-2 list-unstyled mb-0 social-icon">
+                            <li>
+                                <a href="#"
+                                    class="rounded-circle align-items-center d-flex fs-19 icon-wrap justify-content-center rounded-2 text-white inst">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="rounded-circle align-items-center d-flex fs-19 icon-wrap justify-content-center rounded-2 text-white twi">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="rounded-circle align-items-center d-flex fs-19 icon-wrap justify-content-center rounded-2 text-white dri">
+                                    <i class="fab fa-dribbble"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="rounded-circle align-items-center d-flex fs-19 icon-wrap justify-content-center rounded-2 text-white fb">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="rounded-circle align-items-center d-flex fs-19 icon-wrap justify-content-center rounded-2 text-white whatsapp">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- /. end social icon -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container border-top">
+            <div class="align-items-center g-3 py-4 row">
+                <div class="col-lg-auto">
+                    <!-- start footer nav -->
+                    <ul class="list-unstyled list-separator mb-2 footer-nav">
+                        <li class="list-inline-item"><a href="#">Privacy</a></li>
+                        <li class="list-inline-item"><a href="#">Sitemap</a></li>
+                        <li class="list-inline-item"><a href="#">Cookies</a></li>
+                    </ul>
+                    <!-- end /. footer nav -->
+                </div>
+                <div class="col-lg order-md-first">
+                    <div class="align-items-center row">
+                        <!-- start footer logo -->
+                        <a href="index.html" class="col-sm-auto footer-logo mb-2 mb-sm-0">
+                            <img src="assets/images/cdmx-logo.png" alt="">
+                        </a>
+                        <!-- end /. footer logo -->
+                        <!-- start text -->
+                        <div class="col-sm-auto copy">© 2024 CDMX365 - All Rights Reserved- All Rights Reserved</div>
+                        <!-- end /. text -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end /. footer -->
+
+
+    <!-- Optional JavaScript -->
+    <script src="assets/plugins/jQuery/jquery.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/plugins/aos/aos.min.js"></script>
+    <script src="assets/plugins/macy/macy.js"></script>
+    <script src="assets/plugins/simple-parallax/simpleParallax.min.js"></script>
+    <script src="assets/plugins/OwlCarousel2/owl.carousel.min.js"></script>
+    <script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.min.js"></script>
+    <script src="assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.min.js"></script>
+    <script src="assets/plugins/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/plugins/counter-up/jquery.counterup.min.js"></script>
+    <script src="assets/plugins/jquery-fancyfileuploader/fancy-file-uploader/jquery.ui.widget.js"></script>
+    <script src="assets/plugins/jquery-fancyfileuploader/fancy-file-uploader/jquery.fileupload.js"></script>
+    <script src="assets/plugins/jquery-fancyfileuploader/fancy-file-uploader/jquery.iframe-transport.js"></script>
+    <script src="assets/plugins/jquery-fancyfileuploader/fancy-file-uploader/jquery.fancy-fileupload.js"></script>
+    <script src="assets/plugins/ion.rangeSlider/ion.rangeSlider.min.js"></script>
+    <script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/plugins/select2/select2.min.js"></script>
+    <!-- Custom script for this template -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+
+</html>
