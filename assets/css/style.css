@@ -1951,10 +1951,10 @@ hr {
         height: calc(100vh - 32px) !important;
     }
 
-    .hero-header-rounded.dark-overlay::after {
+    /* .hero-header-rounded.dark-overlay::after {
         border-bottom-left-radius: 22%;
         border-bottom-right-radius: 60%;
-    }
+    } */
 }
 
 .hero-header-classic {
